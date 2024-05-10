@@ -1,64 +1,144 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #023E84;
+}
+
 body{
-    background-color:#023E84;
+    background-image: url(/imagens/BACKGROUND.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding:12%;
+    overflow-x: hidden;
+    overflow-y: hidden;
     
 }
-.logo_pmm{
-position: absolute;
-width: 80px;
-height: auto;
-left: 678px;
-top: 100px;
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.direti_logo{
+    margin: 10px;
+    width: 110px;
 
 }
 
-.logo_glpi{
-position: absolute;
-width: 121px;
-left: 780px;
-top: 100px;
-bottom: 73.34%;
-height: auto;
+.pmm_logo{
+    margin: 10px;
+    width: 70px
 }
 
-.logo_direti{
-position: absolute;
-width: 121px;
-left: 540px;
-top: 100px;
-bottom: 73.14%;
-height: auto;
+.glpi_logo{
+    width: 110px;
+    margin: 10px;
 }
 
-.card_1{
-position: absolute;
-width: 552px;
-height: auto;
-left: 156px;
-top: calc(50% - 400px/2 + 120px);
-box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
-border-radius: 30px;
+.logos{
+    position: relative;
+    top: 100px;
+    left:390px;
+    height: auto;
 }
 
-.card_2{
-position: absolute;
-width: 552px;
-height: auto;
-left: 732px;
-top: calc(50% - 400px/2 + 120px);
-box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
-border-radius: 30px;
+.select{
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    top: 205px;
+    left: 640px;
+    position: absolute;
+    color: white;
 }
 
-.selecione{
-position: absolute;
-width: 322px;
-height: 29px;
-left: 603px;
-top: 200px;
-font-family: sf;
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 29px;
-color: #FFFFFF;
+.cards{
+    position: absolute;
+    top:260px;
+    left:330px;
+
+}
+
+
+.text_infra{
+    font-size:15px;
+    position: absolute;
+    font-family: 'SF Pro Display';
+    color: white;
+    top: 175px;
+    left: 560px;
+
+}
+
+.text_ti{
+    font-size:15px;
+    position: absolute;
+    font-family: 'SF Pro Display';
+    color: white;
+    top: 175px;
+    left: 150px;
+    
+}
+
+.cards button{
+    border:none;
+    font-size:10px;
+    width: 150px;
+    height: 28px;
+}
+
+.cards button:hover{
+    background-color: #0c57ac;
+
+}
+
+.botao_ti{
+    color:rgb(255, 255, 255);
+    background-color: #023E84;
+    border-radius: 6px;
+    font-family: 'SF Pro Display';
+    position: absolute;
+    top:250px;
+    left: 128px;
+}
+
+.botao_infra{
+    color:rgb(255, 255, 255);
+    background-color: #023E84;
+    border-radius: 6px;
+    font-family: 'SF Pro Display';
+    box-shadow: none;
+    position:absolute;
+    top: 250px;
+    left:550px;
+
+}
+
+.card{
+    width: 400px;
+    height: auto;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+
+.icon_ti{
+    width: 70px;
+    top: 100px;
+    left: 175px;
+    position:absolute;
+
+}
+
+.icon_infra{
+    width: 70px;
+    top: 100px;
+    left: 590px;
+    position:absolute;
+
 }
